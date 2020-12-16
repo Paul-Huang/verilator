@@ -5,6 +5,7 @@
 // SPDX-License-Identifier: CC0-1.0
 
 // See also the EXAMPLE section in the verilator manpage/document.
+`timescale 10ns/1ns
 module top (input clk);
 
    integer cyc = 0;

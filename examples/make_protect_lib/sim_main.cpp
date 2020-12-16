@@ -47,6 +47,7 @@ int main(int argc, char** argv, char** env) {
 
     // Simulate until $finish
     while (!Verilated::gotFinish()) {
+        // default timescale and unit is 1ps
         main_time++;
         top->clk = ~top->clk & 0x1;
         top->eval();
