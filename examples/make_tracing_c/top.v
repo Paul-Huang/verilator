@@ -32,7 +32,10 @@ module top
             // Inputs
             .clk                        (clk),
             .reset_l                    (reset_l));
-
+   sub2 sub2 (/*AUTOINST*/
+            // Inputs
+            .clk                        (clk),
+            .reset_l                    (reset_l));
    // Print some stuff as an example
    initial begin
       if ($test$plusargs("trace") != 0) begin

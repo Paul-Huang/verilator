@@ -11,6 +11,7 @@
 // Include model header, generated from Verilating "top.v"
 #include "Vtop.h"
 
+#define VM_COVERAGE 1
 // Current simulation time (64-bit unsigned)
 vluint64_t main_time = 0;
 // Called by $time in Verilog
